@@ -1,3 +1,23 @@
+/* Hình nền toàn trang*/
+
+/* body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+#container {
+    overflow: hidden;
+    position: absolute;
+    top: 0; left: -25%; right: 0; bottom: 0;
+    overflow-y: scroll;
+    margin: 0; padding: 0;
+}
+   
+  
+/*Thanh menu*/
+
 .mucLucs{
     background-color: white;
     padding: 0;
@@ -5,13 +25,27 @@
     display: flex;
 }
 
+div.mucLucs{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logoTruongs{
+    padding-left: 3rem;
+    margin: 0.3rem;
+}
+
 #logoTruong{
-    width: 150px;
+    width: 300px;
 }
 
 ul.mucLucs{
+    margin: 0.3rem;
     margin-left: auto;
     list-style-type: none;
+    padding-right: 3rem;
 }
 
 .mucLuc{
@@ -22,29 +56,10 @@ ul.mucLucs{
     font-weight: bold;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 1.3rem;
 }
 
 a.mucLuc:hover{
-    background-color: #321d5e;
-    color: white;
+    color: #b9a2d8;
 }
 
-body{
-    background-image: url(./img/back.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.logoTruongs{
-    margin: 0.5rem;
-    padding-left: 2rem;
-}
-
-header.mucLucs{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
