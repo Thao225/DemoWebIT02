@@ -30,7 +30,7 @@ a.mucLuc:hover{
 }
 
 body{
-    background-image: url(../BTL/img/back.png);
+    background-image: url(./img/back.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
