@@ -1,0 +1,50 @@
+.mucLucs{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#logoTruong{
+    width: 150px;
+}
+
+ul.mucLucs{
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.mucLuc{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: #321d5e;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a.mucLuc:hover{
+    background-color: #321d5e;
+    color: white;
+}
+
+body{
+    background-image: url(../BTL/img/back.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logoTruongs{
+    margin: 0.5rem;
+    padding-left: 2rem;
+}
+
+header.mucLucs{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
