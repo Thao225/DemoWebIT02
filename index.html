@@ -8,22 +8,34 @@
     <script src="index.js"></script>
 </head>
 <body>
+    <!-- Background -->
     <div id="container">
         <video loop autoplay muted playsinline>
           <source src="./video/vuTru.mp4" type="video/mp4" />
         </video>
       </div>
+
     <!--Thanh menu- -->
     <div class="mucLucs">
         <div class="logoTruongs">
             <img src="./img/logoTruong.png" alt="Logo" id="logoTruong">
         </div>
-        <ul class="mucLucs">
-            <li><a href="#" class="mucLuc">Thông tin tuyển sinh</a></li>
-            <li><a href="#" class="mucLuc">Thông tin Khoa-Ngành</a></li>
-            <li><a href="#" class="mucLuc">Chương trình đào đạo</a></li>
-            <li><a href="#" class="mucLuc">Liên hệ</a></li>
-        </ul>
+        <nav class="mucLucs">
+            <ul class="mucLucs">
+                <li class="sub">
+                    <a href="#">Thông tin tuyển sinh</a>
+                    <ul class="mucLuc">
+                        <li><a href="#">Phương thức xét tuyển</a></li>
+                        <li><a href="#">Học phí</a></li>
+                        <li><a href="#">Học bổng</a></li>
+                        <li><a href="#">Chính sách miễn giảm</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Thông tin Khoa-Ngành</a></li>
+                <li><a href="#">Chương trình đào đạo</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
     </div>
 </body>
 </html>
