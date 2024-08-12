@@ -9,10 +9,11 @@
 
 #container {
     overflow: hidden;
-    position: absolute;
-    top: 0; left: -25%; right: 0; bottom: 0;
+    top: 0; left: -20%; right: 0; bottom: 0;
     overflow-y: scroll;
     margin: 0; padding: 0;
+    z-index:0;
+    position: absolute;
 }
    
   
@@ -68,10 +69,11 @@ ul.mucLucs>li>a:hover{
 ul.mucLuc{
     margin: 0;
     list-style-type: none;
-    padding:0;
+    padding: 0;
     background-color: white;
     display: none;
     position: absolute;
+    border-radius:0 0 5% 5%;
 }
 
 ul.mucLuc>li>a{
@@ -79,10 +81,30 @@ ul.mucLuc>li>a{
     color: #321d5e;
 }
 
-ul.mucLuc>li{
-    padding: 0.5rem 2rem;
+ul.mucLuc>li>a:hover{
+    color: #b9a2d8;
 }
 
 .sub:hover .mucLuc{
     display: block !important;
+}
+
+.mucLuc>li:first-child{
+    margin-top: 1.5rem;
+}
+
+.mucLuc>li{
+    margin: 0 2rem 1.5rem 1.5rem;
+    margin-left: 2rem;
+}
+
+.editMenuSmall2>li{
+    margin-right: 1.5rem !important;
+}
+
+/*  */
+.quangBa{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
 }
