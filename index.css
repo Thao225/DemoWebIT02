@@ -172,11 +172,6 @@ ul.mucLuc>li>a:hover{
     color: white;
 }
 
-.quyTrinhs{
-    margin-left: 2%;
-    margin-left: 2%;
-}
-
 .gachChan{
     left: 0;
     bottom: 0;
@@ -187,7 +182,12 @@ ul.mucLuc>li>a:hover{
     margin: auto;
     margin-bottom: 2rem;
 }
- 
+
+.quyTrinhs{
+    margin-left: 2%;
+    margin-left: 2%;
+}
+
 .quyTrinh{
     background-color: white;
     width: 30%;
@@ -196,7 +196,9 @@ ul.mucLuc>li>a:hover{
     display: inline-block;
     border-radius: 10px;
 }
-
+/* .quyTrinh:first-child{
+    
+} */
 
 .tieuDeCuaQuyTrinh{
     padding: 1rem;
