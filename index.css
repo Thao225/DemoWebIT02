@@ -28,7 +28,7 @@ video {
     height: 710px;
     overflow: hidden;
     margin: 0; padding: 0;
-    margin-bottom: 0;
+    position: relative;
 }
   
 /*Thanh menu*/
@@ -170,6 +170,7 @@ ul.mucLuc>li>a:hover{
     text-align: center;
     text-transform: uppercase;
     color: white;
+    margin-top: 2rem;
 }
 
 .gachChan{
@@ -183,21 +184,22 @@ ul.mucLuc>li>a:hover{
     margin-bottom: 2rem;
 }
 
-.quyTrinhs{
-    margin-left: 2%;
-    margin-left: 2%;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
-}
+/* .quyTrinhs{
+    margin-left: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
 
 .hangquyTrinh{
    display: flex;
+   width: 90%;
+   margin: 0 auto;
 }
 .quyTrinh{
     background-color: white;
     width: 30%;
     height: 200px;
-    margin: 1%;
+    margin: 1rem;
     /* display: inline-block; */
     border-radius: 10px;
 }
@@ -219,9 +221,11 @@ ul.mucLuc>li>a:hover{
 
 .tenBuoc{
     text-align: center;
+    padding: 1rem;
+    padding-top: 0;
 }
 
 .noiDungBuoc{
-    text-align: left;
+    text-align: justify;
     height: 150px;
 }
