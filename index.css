@@ -20,8 +20,8 @@ body{
 video {
     width: 100%; 
     position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
+    /* left: 50%; top: 50%;
+    transform: translate(-50%, -50%); */
 }
 
 #container {
@@ -186,14 +186,19 @@ ul.mucLuc>li>a:hover{
 .quyTrinhs{
     margin-left: 2%;
     margin-left: 2%;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
 }
 
+.hangquyTrinh{
+   display: flex;
+}
 .quyTrinh{
     background-color: white;
     width: 30%;
     height: 200px;
     margin: 1%;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 10px;
 }
 /* .quyTrinh:first-child{
@@ -218,4 +223,5 @@ ul.mucLuc>li>a:hover{
 
 .noiDungBuoc{
     text-align: left;
+    height: 150px;
 }
