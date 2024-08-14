@@ -16,20 +16,6 @@
 body{
     background-color: #321d5e;
 }
-
-video {
-    width: 100%; 
-    position: absolute;
-    /* left: 50%; top: 50%;
-    transform: translate(-50%, -50%); */
-}
-
-#container {
-    height: 710px;
-    overflow: hidden;
-    margin: 0; padding: 0;
-    position: relative;
-}
   
 /*Thanh menu*/
 header{
@@ -39,6 +25,24 @@ header{
     left: 0;
     width: 100%;
 }
+
+video {
+    width: 100%; 
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    height: 710px;
+    width: 1380.36px;
+    overflow: hidden;
+    position: relative;
+    margin-left: -0.5rem; padding-left: 0;
+    left: 0; right: 0;
+
+}
+
 .mucLucs{
     background-color: white;
     padding: 0;
