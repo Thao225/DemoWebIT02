@@ -1,4 +1,4 @@
-// JS
+// video
 var video = document.querySelector("video"),
 container = document.querySelector("#container");
 
@@ -26,3 +26,6 @@ video.style.height = newHeight + "px";
 };
 video.addEventListener("loadedmetadata", setVideoDimensions, false);
 window.addEventListener("resize", setVideoDimensions, false);
+
+
+//
